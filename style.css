@@ -1,0 +1,65 @@
+* {
+  font-family: "Peyda";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #3c4351;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ccc;
+}
+.box .forms input,
+.box .forms button {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+}
+.box .forms input {
+  border: 1px solid #ccc;
+}
+.box .forms button {
+  border: 1px solid #ccc;
+  background: #4152a0;
+  color: #fff;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 0 45px;
+  width: 500px;
+  gap: 50px;
+}
+.text-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 2;
+}
+.text-header h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.text-header p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.box .forms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 50px;
+}
